@@ -7,10 +7,10 @@ author:
   name: Team Grav
   email: devs@getgrav.org
   url: https://getgrav.org
-homepage: https://github.com/team-grav/grav-plugin-sweet-captcha
+homepage: https://github.com/getgrav/grav-plugin-sweetcaptcha
 keywords: captcha, form, plugin
-bugs: https://github.com/team-grav/grav-plugin-sweet-captcha/issues
-readme: https://github.com/team-grav/grav-plugin-sweet-captcha/blob/develop/README.md
+bugs: https://github.com/getgrav/grav-plugin-sweetcaptcha/issues
+readme: https://github.com/getgrav/grav-plugin-sweetcaptcha/blob/develop/README.md
 license: MIT
 
 dependencies:
