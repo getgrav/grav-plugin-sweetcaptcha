@@ -92,4 +92,14 @@ class SweetCaptchaPlugin extends Plugin
                 break;
         }
     }
+
+    // override defaults
+    public function getFormFieldTypes()
+    {
+        return [
+            'sweetcaptcha' => [
+                'input@' => false
+            ]
+        ];
+    }
 }
