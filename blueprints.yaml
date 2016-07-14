@@ -1,6 +1,5 @@
 name: SweetCaptcha
 version: 1.0.1
-testing: true
 description: Enables the ability to use sweetCaptcha form field in your forms
 icon: check-square-o
 author:
