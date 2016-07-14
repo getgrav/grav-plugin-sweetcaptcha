@@ -1,0 +1,48 @@
+name: SweetCaptcha
+version: 1.0.2
+description: Enables the ability to use sweetCaptcha form field in your forms
+icon: check-square-o
+author:
+  name: Team Grav
+  email: devs@getgrav.org
+  url: https://getgrav.org
+homepage: https://github.com/getgrav/grav-plugin-sweetcaptcha
+keywords: captcha, form, plugin
+bugs: https://github.com/getgrav/grav-plugin-sweetcaptcha/issues
+readme: https://github.com/getgrav/grav-plugin-sweetcaptcha/blob/develop/README.md
+license: MIT
+
+dependencies:
+    - { name: grav, version: '~1.1' }
+    - { name: form, version: '~1.3' }
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+    help:
+      type: display
+      label: Info
+      markdown: true
+      content: "Go to [sweetcaptcha.com](http://sweetcaptcha.com/) and register an account.  Then use the Advanced Credentials to fill in the information below"
+    app_id:
+      type: text
+      label: App ID
+      default: 500000
+    app_key:
+      type: text
+      label: App Key
+      default: ez7eti4k4n0tyldhdzl5rzp4cm34nk
+    app_secret:
+      type: text
+      label: App Secret
+      default: rk4ffkksvknjxdgnlpaoy08ot8g103
