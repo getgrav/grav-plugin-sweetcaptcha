@@ -1,3 +1,5 @@
+# !!! DUE TO MALWARE BEING FOUND IN THE UNDERLYING SWEETCAPTCHA CODE, THIS PLUGIN HAS BEEN REMOVED FROM GPM AND IS NO LONGER SUPPORTED !!!
+
 # Sweet Captcha Plugin
 
 The **Sweet Captcha** Plugin is for [Grav CMS](http://github.com/getgrav/grav) that allows the use of a [sweetCaptcha](http://sweetcaptcha.com/) captcha field in your Grav forms.
